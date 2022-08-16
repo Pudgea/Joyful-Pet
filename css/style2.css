@@ -1,0 +1,225 @@
+.strelka{
+    border: none;
+    background-color: #fff;
+    width: 50px;
+    height: 50px;
+}
+/* friends */
+.friend_dogs{
+    padding-top: 20px;
+    position: relative;
+}
+
+.friend{
+    width: 300px;
+    height: 400px;
+    box-shadow: 0px 0px 15px 1px #000;
+    margin-bottom: 75px;
+    border-radius: 15px;
+}
+.friends_div{
+    display: flex;
+    align-content: space-between;
+    column-gap: 75px;  
+    flex-wrap: nowrap;
+    align-items: center;
+}
+.imgg_dv img{
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 15px ;
+    border-top-right-radius: 15px ;
+}
+.imgg_dv{
+    height: 200px;
+}
+.friend .shop_name{
+    padding-top: 5px;
+    padding-left: 8px;
+}
+.txt_friend{
+padding-left: 15px;
+font-style: normal;
+font-weight: 100;
+font-size: 13px;
+line-height: 14px;
+width: 280px;
+height: 120px;
+}
+.friend .btn{
+    margin-left: 50px;
+}
+
+.friend:hover{
+        width: 300px;
+        height: 400px;
+        box-shadow: 0px 0px 20px 2px #000;
+}
+.shop_type{
+    padding-bottom: 30px;
+    font-weight: 900;
+    font-style: normal;
+    color: #000;
+    font-size: 18px;
+    text-transform: uppercase;
+    align-items: center;
+}
+.blocks{
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    padding: 30px 0;   
+    column-gap: 40px;
+    flex-wrap: wrap;
+}
+.text_block{
+    min-width: 300px;
+    min-height: 300px;
+    max-width: 300px;
+    max-height: 300px;
+    background-color: #89E8EC;  
+    box-shadow: 19px 20px 0px 0px #e9473c;
+    margin-bottom: 30px;
+}
+.text_block_dog {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 30px;
+    padding: 10% 10%;
+    width: 80%;
+    height: 80%;
+}
+.img_block{
+    min-width: 400px;
+    min-height: 350px;
+    max-width: 400px;
+    max-height: 350px;
+    background-color:  #e9473c;  
+    box-shadow: 19px 20px 0px 0px #89E8EC;
+}
+.img_block_dog{
+    padding-top: 7.5%;
+    width: 90%;
+    height: 90%;
+}
+.block_div{
+    position: relative;
+}
+/* toys */
+.toy_dogs{
+    padding-top: 20px;
+    position: relative;
+}
+
+.toy{
+    width: 300px;
+    height: 400px;
+    box-shadow: 0px 0px 15px 1px #000;
+    margin-bottom: 75px;
+    border-radius: 15px;
+}
+.toy_div{
+    display: flex;
+    align-content: space-between;
+    column-gap: 75px;  
+    flex-wrap: nowrap;
+    align-items: center;
+}
+.toy_img img{
+    padding-left: 10%;
+    width: 80%;
+    height: 100%;
+    border-top-left-radius: 15px ;
+    border-top-right-radius: 15px ;
+}
+.toy_img{
+    height: 200px;
+}
+.toy .shop_name{
+    padding-top: 5px;
+    padding-left: 8px;
+}
+.txt_toy{
+padding-top: 5px;
+padding-left: 10px;
+font-style: normal;
+font-weight: 100;
+font-size: 14px;
+line-height: 20px;
+width: 280px;
+height: 120px;
+}
+.toy .btn{
+    margin-left: 50px;
+}
+
+.toy:hover{
+        width: 300px;
+        height: 400px;
+        box-shadow: 0px 0px 20px 2px #000;
+}
+
+/* food */
+.food_dogs{
+    padding-top: 20px;
+    position: relative;
+}
+
+.food{
+    width: 300px;
+    height: 400px;
+    box-shadow: 0px 0px 15px 1px #000;
+    margin-bottom: 75px;
+    border-radius: 15px;
+}
+.food_div{
+    display: flex;
+    align-content: space-between;
+    column-gap: 75px;  
+    flex-wrap: nowrap;
+    align-items: center;
+}
+.food_img img{
+    padding-left: 10%;
+    width: 80%;
+    height: 100%;
+    border-top-left-radius: 15px ;
+    border-top-right-radius: 15px ;
+}
+.food_img{
+    height: 200px;
+}
+.food .shop_name{
+    padding-top: 5px;
+    padding-left: 8px;
+}
+.txt_food{
+padding-top: 5px;
+padding-left: 10px;
+font-style: normal;
+font-weight: 100;
+font-size: 14px;
+line-height: 20px;
+width: 280px;
+height: 120px;
+}
+.food .btn{
+    margin-left: 50px;
+}
+
+.food:hover{
+        width: 300px;
+        height: 400px;
+        box-shadow: 0px 0px 20px 2px #000;
+}
+
+
+
+/* strelki */
+.friends_div div:nth-child(5), .friends_div div:nth-child(6), .friends_div div:nth-child(7){
+    display: none;
+}
+.toy_div div:nth-child(5), .toy_div div:nth-child(6), .toy_div div:nth-child(7){
+    display: none;
+}

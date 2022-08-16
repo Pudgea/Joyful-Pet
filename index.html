@@ -4,22 +4,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JOYFUL PET</title>
+    <title>menu - JoyfulPet</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+ 
     <header id="header" class="header">
         <div class="container">
             <nav class="nav">
                 <span class="logo">
                     <img src="img/pawprint 1.png" alt="">
-                    <span class="logo_name">JOYFUL PET</span>
+                    <span class="logo_name">JOYFULPET</span>
                 </span>
                 <ul class="nav_list">
                     <li ><a href="#" class="nav_link reds">главная</a></li>
-                    <li ><a href="#" class="nav_link">друзья</a></li>
+                    <li ><a href="shop.html" class="nav_link">друзья</a></li>
                     <li ><a href="#" class="nav_link">корзина</a></li>
-                    <li ><a href="#" class="nav_link">контакты</a></li>
+                    <li ><a href="#" class="nav_link">контакты</a>
+                        <ul>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                    </li>
                     <li></li>
                     <li></li>
                     <button class="menu-open">
@@ -35,7 +41,7 @@
             <div class="text_dog">
                 <h1>Твой новый друг с доставкой на дом</h1>
                 <p>Онлайн-магазин домашних животных подарит тебе нового друга в несколько кликов. Действуй!</p>
-                <div class="btn_div"><button class="btn">посмотреть друзей</button></div>
+                <div class="btn_div"><button class="btn"><a href="shop.html" class="btn_a">посмотреть друзей</a></button></div>
             </div>
             <img src="img/dog-face-png-4 1.png" alt="собака" class="doggg">
         </div>
@@ -45,33 +51,57 @@
             <div class="shop_header">
                 <ul class="shop_nav">
                     <a class="shop_name">каталог товаров</a>
-                    <li><a href="" class="nav_link reddd">все</a></li>
-                    <li><a href="" class="nav_link">игрушки</a></li>
-                    <li><a href="" class="nav_link">ошейники</a></li>
-                    <li><a href="" class="nav_link">корм </a></li>
+                    <li><a href="" class="nav_link3 reddd">все</a></li>
+                    <li><a href="" class="nav_link3">игрушки</a></li>
+                    <li><a href="" class="nav_link3">ошейники</a></li>
+                    <li><a href="" class="nav_link3">корм </a></li>
                 </ul>
             </div>
-        <div class="shop_items">
+        <div class="shop_items container">
             <ul class="items_nav">
                 <li class="item1">
                     <img src="img/pngwing.png" alt="" class="item_img">
                     <p class="name">Собачий ошейник</p>
-                    <p class="price">59 руб</p>
+                    <p class="price">59 руб
+                        <button class="btn_item">
+                            <a href="">
+                                <img src="img/Vector 2.png" alt="">
+                            </a>
+                        </button>
+                    </p>
                 </li>
                 <li class="item1">
                     <img src="img/pngwi.png" alt="" class="item_img">
                     <p class="name">жевательная ирушка</p>
-                    <p class="price">61 руб</p>
+                    <p class="price">61 руб
+                        <button class="btn_item">
+                            <a href="">
+                                <img src="img/Vector 2.png" alt="">
+                            </a>
+                        </button>
+                    </p>
                 </li>
                 <li class="item1">
                     <img src="img/pngwing 1 (1).png" alt="" class="item_img">
                     <p class="name">перевозчик животных</p>
-                    <p class="price">68 руб</p>
+                    <p class="price">68 руб
+                        <button class="btn_item">
+                            <a href="">
+                                <img src="img/Vector 2.png" alt="">
+                            </a>
+                        </button>
+                    </p>
                 </li>
                 <li class="item1">
                     <img src="img/pngwing 1.png" alt="" class="item_img">
                     <p class="name">корм для собкаи</p>
-                    <p class="price">32 руб</p>
+                    <p class="price">32 руб
+                        <button class="btn_item">
+                            <a href="">
+                                <img src="img/Vector 2.png" alt="">
+                            </a>
+                        </button>
+                    </p>
                 </li>
                 <li><a href="" style="color:#E9473C ;">еще</a></li>
             </ul>
@@ -100,7 +130,12 @@
             <a href="#" class="name_name">читать дальше  ></a>
         </div>
     </div>
-    <br><br><br><br><br>
+    <br><br>    
+    <button class="up">
+        <a href="" >
+            <img class="up_img"  src="img/strela.png" alt="">
+        </a>
+    </button>
     <footer id="footer" class="footer">
         <div class="container">
             <nav class="nav">
@@ -126,4 +161,4 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
 	<script src="js/main.js"></script>
 </body>
-</html>
+</html> 
